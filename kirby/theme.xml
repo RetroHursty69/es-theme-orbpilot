@@ -1,0 +1,28 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+		</image>
+	</view>
+	<view name="detailed,video">
+      <image name="logo" extra="true">
+         <origin>0 0</origin>
+         <pos>0.095 0.375</pos>
+         <maxSize>0.35 0.35</maxSize>
+         <path>./_inc/system.png</path>
+         <zIndex>41</zIndex>            
+      </image>   	
+	</view>	
+	<view name="basic">
+      <image name="logo" extra="true">
+         <origin>0 0</origin>
+         <pos>0.26 0.365</pos>
+         <maxSize>0.38 0.38</maxSize>
+         <path>./_inc/system.png</path>
+         <zIndex>41</zIndex>            
+      </image>   	
+	</view>							    
+</theme>
